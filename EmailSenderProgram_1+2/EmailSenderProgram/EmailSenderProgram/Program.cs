@@ -1,5 +1,4 @@
 ﻿using EmailServer.BusinessLayer.HelperClass;
-using EmailServer.BusinessLayer.Implementation.Mail.MailService;
 using EmailServer.BusinessLayer.Utility;
 using EmailServer.Data;
 using System;

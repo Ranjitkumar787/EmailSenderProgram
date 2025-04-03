@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml;
 
 namespace EmailServer.BusinessLayer.Utility
@@ -31,8 +27,7 @@ namespace EmailServer.BusinessLayer.Utility
                     }
                 }
 
-                xmlDoc.Save(configFilePath);
-                //Console.WriteLine($"Updated Last Execution Date: {DateTime.Now}");
+                xmlDoc.Save(configFilePath);              
             }
             catch (Exception ex)
             {

@@ -2,9 +2,6 @@
 using EmailServer.BusinessLayer.Utility;
 using EmailServer.Data;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -69,7 +66,7 @@ namespace EmailServer.BusinessLayer.HelperClass
                             Console.WriteLine("Last Mail Sent Date Time : {0}", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
                         }
 
-                        await Task.Delay(500, token);
+                        await Task.Delay(3600000, token);
                     }
                     catch (Exception ex)
                     { Logger.ExceptionLog("EmailScheduler.txt", "MailScheduler", ex); }

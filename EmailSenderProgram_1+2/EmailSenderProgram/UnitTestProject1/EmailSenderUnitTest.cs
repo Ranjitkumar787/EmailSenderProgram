@@ -1,9 +1,7 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EmailServer.BusinessLayer.HelperClass;
 using System.Net.Mail;
 using EmailServer.Data;
-using EmailServer.BusinessLayer.Utility;
 
 namespace EmailSenderProgramTest
 {

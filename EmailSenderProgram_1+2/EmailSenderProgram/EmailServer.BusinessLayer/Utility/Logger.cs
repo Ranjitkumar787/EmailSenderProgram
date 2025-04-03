@@ -1,7 +1,5 @@
-﻿using EmailServer.Data;
-using System;
+﻿using System;
 using System.IO;
-using System.Reflection;
 
 namespace EmailServer.BusinessLayer.Utility
 {
