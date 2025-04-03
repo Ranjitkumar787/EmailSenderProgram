@@ -24,7 +24,7 @@ namespace EmailSenderProgram
 		{
 			return new List<Customer>()
 				       {
-					       new Customer(){Email = "mail1@mail.com", CreatedDateTime = DateTime.Now.AddHours(-7)}, 
+					       new Customer(){Email = "ranjitkumar.rajendran@relevantz.com", CreatedDateTime = DateTime.Now.AddHours(-7)}, 
 					       new Customer(){Email = "mail2@mail.com", CreatedDateTime = DateTime.Now.AddDays(-1)}, 
 					       new Customer(){Email = "mail3@mail.com", CreatedDateTime = DateTime.Now.AddMonths(-6)}, 
 					       new Customer(){Email = "mail4@mail.com", CreatedDateTime = DateTime.Now.AddMonths(-1)}, 

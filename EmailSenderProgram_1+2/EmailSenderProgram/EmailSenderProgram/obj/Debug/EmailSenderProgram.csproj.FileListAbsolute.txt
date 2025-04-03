@@ -1,1 +1,7 @@
 D:\EMAIL\EmailSenderProgram_1+2\EmailSenderProgram\EmailSenderProgram\bin\Debug\EmailSenderProgram.exe.config
+D:\Energy_Opticon\EmailSenderProgram_1+2\EmailSenderProgram\EmailSenderProgram\bin\Debug\EmailSenderProgram.exe.config
+D:\Energy_Opticon\EmailSenderProgram_1+2\EmailSenderProgram\EmailSenderProgram\bin\Debug\EmailSenderProgram.exe
+D:\Energy_Opticon\EmailSenderProgram_1+2\EmailSenderProgram\EmailSenderProgram\bin\Debug\EmailSenderProgram.pdb
+D:\Energy_Opticon\EmailSenderProgram_1+2\EmailSenderProgram\EmailSenderProgram\obj\Debug\EmailSenderProgram.exe
+D:\Energy_Opticon\EmailSenderProgram_1+2\EmailSenderProgram\EmailSenderProgram\obj\Debug\EmailSenderProgram.pdb
+D:\Energy_Opticon\EmailSenderProgram_1+2\EmailSenderProgram\EmailSenderProgram\obj\Debug\EmailSenderProgram.csprojResolveAssemblyReference.cache
