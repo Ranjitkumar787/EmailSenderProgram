@@ -50,7 +50,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="EmailSenderUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -58,9 +58,9 @@
       <Project>{6375170C-E79F-47CB-833B-29B23F1BE2D0}</Project>
       <Name>EmailServer.BusinessLayer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EmailServer.DataModels\EmailServer.DataModels.csproj">
+    <ProjectReference Include="..\EmailServer.DataModels\EmailServer.Data.csproj">
       <Project>{B032AEF6-B03C-44F3-A45A-965D5A590647}</Project>
-      <Name>EmailServer.DataModels</Name>
+      <Name>EmailServer.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

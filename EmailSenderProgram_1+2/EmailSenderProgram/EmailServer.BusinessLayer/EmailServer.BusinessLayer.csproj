@@ -41,14 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HelperClass\CreateMailContent.cs" />
-    <Compile Include="HelperClass\ProcessMailBasedOnType.cs" />
+    <Compile Include="HelperClass\EmailScheduler.cs" />
+    <Compile Include="HelperClass\MailContent.cs" />
+    <Compile Include="HelperClass\MailService.cs" />
     <Compile Include="HelperClass\SMTPConfiguration.cs" />
     <Compile Include="Implementation\Mail\MailService\ComeBackMailService.cs" />
     <Compile Include="Implementation\Mail\MailService\WelcomeMailService.cs" />
     <Compile Include="Interface\IMail\IMailService\IMailService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility\Logger.cs" />
+    <Compile Include="Utility\UpdateAppConfig.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -56,9 +58,9 @@
       <Project>{1C8B57A4-D7E0-4BA7-B4DD-CE6E0C93D65E}</Project>
       <Name>EmailServer.DataAccessLayer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EmailServer.DataModels\EmailServer.DataModels.csproj">
+    <ProjectReference Include="..\EmailServer.DataModels\EmailServer.Data.csproj">
       <Project>{B032AEF6-B03C-44F3-A45A-965D5A590647}</Project>
-      <Name>EmailServer.DataModels</Name>
+      <Name>EmailServer.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

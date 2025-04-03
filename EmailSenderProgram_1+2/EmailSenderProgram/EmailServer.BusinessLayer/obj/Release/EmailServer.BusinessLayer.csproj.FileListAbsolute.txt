@@ -1,0 +1,9 @@
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\EmailServer.BusinessLayer\bin\Release\EmailServer.BusinessLayer.dll
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\EmailServer.BusinessLayer\bin\Release\EmailServer.BusinessLayer.pdb
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\EmailServer.BusinessLayer\bin\Release\EmailServer.DataAccessLayer.dll
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\EmailServer.BusinessLayer\bin\Release\EmailServer.DataModels.dll
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\EmailServer.BusinessLayer\bin\Release\EmailServer.DataAccessLayer.pdb
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\EmailServer.BusinessLayer\bin\Release\EmailServer.DataModels.pdb
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\EmailServer.BusinessLayer\obj\Release\EmailServer.BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\EmailServer.BusinessLayer\obj\Release\EmailServer.BusinessLayer.dll
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\EmailServer.BusinessLayer\obj\Release\EmailServer.BusinessLayer.pdb

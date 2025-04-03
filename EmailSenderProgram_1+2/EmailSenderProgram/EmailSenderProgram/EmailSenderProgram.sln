@@ -5,9 +5,9 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSenderProgram", "EmailSenderProgram.csproj", "{CB404AD4-4B82-44A9-9F2C-4F9C0910D54A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailSender.DataModels", "EmailSender.DataModels", "{0E09EF5B-42A7-4C35-8372-949D6393A18B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailSender.Data", "EmailSender.Data", "{0E09EF5B-42A7-4C35-8372-949D6393A18B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailServer.DataModels", "..\EmailServer.DataModels\EmailServer.DataModels.csproj", "{B032AEF6-B03C-44F3-A45A-965D5A590647}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailServer.Data", "..\EmailServer.DataModels\EmailServer.Data.csproj", "{B032AEF6-B03C-44F3-A45A-965D5A590647}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailServer.DataAccessLayer", "EmailServer.DataAccessLayer", "{1C261634-C0E4-4544-ACE5-03028BF04EB5}"
 EndProject
@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailServer.BusinessLayer",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailSenderProgram.Test", "EmailSenderProgram.Test", "{6B0AA544-C214-4F9E-9FE8-BED451AAA29E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "..\UnitTestProject1\UnitTestProject1.csproj", "{48453648-5C04-400C-B1BC-DA2E35B29531}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSenderProgramTest", "..\UnitTestProject1\EmailSenderProgramTest.csproj", "{48453648-5C04-400C-B1BC-DA2E35B29531}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

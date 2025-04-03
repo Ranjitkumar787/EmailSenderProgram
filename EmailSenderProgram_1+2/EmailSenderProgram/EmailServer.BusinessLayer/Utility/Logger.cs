@@ -1,30 +1,34 @@
-﻿using EmailServer.DataModels;
+﻿using EmailServer.Data;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection;
 
 namespace EmailServer.BusinessLayer.Utility
 {
+    #region Class Logger 
+
     public static class Logger
     {
         private static object _lock = new object();
 
-
-        public static void ExceptionLog(string FileName, string MethodName, Exception ex)
+        /// <summary>
+        /// Write Exception as Log in Configured File Path.
+        /// </summary>
+        /// <param name="FileName"></param>
+        /// <param name="MethodName"></param>
+        /// <param name="ex"></param>
+        public static void ExceptionLog(string fileName, string methodName, Exception ex)
         {
             lock (_lock)
                 try
                 {
-                    string DirectoryPath = GlobalVariables.LogFilePath + DateTime.Now.ToString("yyyyMMdd");
-                    string FilePath = GlobalVariables.LogFilePath + DateTime.Now.ToString("yyyyMMdd") + "//" + FileName;
+                    string DirectoryPath = AppDomain.CurrentDomain.BaseDirectory + DateTime.Now.ToString("yyyyMMdd");
+                    string FilePath = AppDomain.CurrentDomain.BaseDirectory + DateTime.Now.ToString("yyyyMMdd") + "//" + fileName;
 
                     if (!Directory.Exists(DirectoryPath))
                         Directory.CreateDirectory(DirectoryPath);
 
-                    string errorMessage = $"\nDateTime : {DateTime.Now}\n Method Name : " + MethodName + $"\n Stack Trace :{ex.StackTrace}";
+                    string errorMessage = $"\nDateTime : {DateTime.Now}\n Method Name : " + methodName + $"\n Stack Trace :{ex.StackTrace}";
                     File.AppendAllText(FilePath, errorMessage);
 
                 }
@@ -33,4 +37,6 @@ namespace EmailServer.BusinessLayer.Utility
         }
 
     }
+
+    #endregion
 }

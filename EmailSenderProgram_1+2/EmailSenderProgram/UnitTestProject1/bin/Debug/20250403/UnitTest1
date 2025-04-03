@@ -23,3 +23,7 @@ DateTime : 03-04-2025 18:40:11
  Method Name : SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess
  Stack Trace :   at System.Net.Mail.SmtpClient.Send(MailMessage message)
    at UnitTestProject1.UnitTest1.SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess() in D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\UnitTest1.cs:line 50
+DateTime : 03-04-2025 18:42:43
+ Method Name : SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess
+ Stack Trace :   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnitTestProject1.UnitTest1.SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess() in D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\UnitTest1.cs:line 50

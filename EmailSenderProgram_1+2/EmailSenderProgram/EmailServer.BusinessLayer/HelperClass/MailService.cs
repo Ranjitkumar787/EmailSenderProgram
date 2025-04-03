@@ -1,18 +1,18 @@
 ﻿using EmailServer.BusinessLayer.Interface.IMail.IMailService;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EmailServer.BusinessLayer.HelperClass
 {
-    public class ProcessMailBasedOnType
+    #region MailService
+
+    /// <summary>
+    /// Dependency Injection Helper Class
+    /// </summary>
+    public class MailService
     {
         private IMailService _mail;
 
 
-        public ProcessMailBasedOnType(IMailService mail)
+        public MailService(IMailService mail)
         {
             _mail = mail;
         }
@@ -22,4 +22,6 @@ namespace EmailServer.BusinessLayer.HelperClass
             return _mail.sendMail();
         }
     }
+
+    #endregion
 }

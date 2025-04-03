@@ -1,0 +1,5 @@
+
+DateTime : 03-04-2025 21:29:06
+ Method Name : SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess
+ Stack Trace :   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailSenderProgramTest.EmailSenderUnitTest.SendTestEmail_With_Wrong_HostName_SmtpClient_Return_False() in D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\EmailSenderUnitTest.cs:line 99

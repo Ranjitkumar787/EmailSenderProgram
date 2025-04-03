@@ -1,13 +1,11 @@
 ﻿using EmailServer.BusinessLayer.HelperClass;
 using EmailServer.BusinessLayer.Interface.IMail.IMailService;
+using EmailServer.BusinessLayer.Utility;
 using EmailServer.DataAccessLayer;
-using EmailServer.DataModels;
+using EmailServer.Data;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net.Mail;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EmailServer.BusinessLayer.Implementation.Mail.MailService
 {
@@ -16,7 +14,6 @@ namespace EmailServer.BusinessLayer.Implementation.Mail.MailService
     /// </summary>
     public class WelcomeMailService : IMailService
     {
-
         /// <summary>
 		/// Send a Welcome mail to Newly Registered Customers
 		/// </summary>
@@ -26,33 +23,34 @@ namespace EmailServer.BusinessLayer.Implementation.Mail.MailService
             try
             {
                 //List all customers
-                List<Customer> e = DataLayer.ListCustomers();
+                List<Customer> Customers = DataLayer.ListCustomers();
 
                 //loop through list of new customers
-                for (int i = 0; i < e.Count; i++)
+                for (int i = 0; i < Customers.Count; i++)
                 {
                     //If the customer is newly registered, one day back in time
-                    if (e[i].CreatedDateTime > DateTime.Now.AddDays(-1))
+                    if (Customers[i].CreatedDateTime.ToString("ddMMyyyy") == DateTime.Now.AddDays(-1).ToString("ddMMyyyy"))
                     {
-                        System.Net.Mail.MailMessage m = CreateMailContent.mailMessage(e[i].Email, CustomerEmailTemplate.GetWelcomeMailSubject(), CustomerEmailTemplate.GetWelcomeMailMessage(e[i].Email));
+                        System.Net.Mail.MailMessage message = MailContent.mailMessage(Customers[i].Email, CustomerEmailTemplate.GetWelcomeMailSubject(), CustomerEmailTemplate.GetWelcomeMailMessage(Customers[i].Email));
                         
 #if DEBUG
                         //Don't send mails in debug mode, just write the emails in console
-                        Console.WriteLine("Send mail to:" + e[i].Email);
-                        
+                        Console.WriteLine("Send mail to:" + Customers[i].Email);
+
 #else
                         //Create a SmtpClient to our smtphost: yoursmtphost                      
                         SmtpClient smtp = SMTPConfiguration.ConfigureSMTP(SMTPConfigurationFields.HostName, SMTPConfigurationFields.Port, SMTPConfigurationFields.SenderEmail, SMTPConfigurationFields.SenderPassword);
                     //Send mail
-                        smtp.Send(m);
+                        smtp.Send(message);
 #endif
                     }
                 }
                 //All mails are sent! Success!
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Logger.ExceptionLog("WelcomeMailService.txt", "sendMail",ex);
                 //Something went wrong :(
                 return false;
             }
