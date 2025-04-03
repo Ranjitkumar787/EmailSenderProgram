@@ -1,0 +1,25 @@
+
+DateTime : 03-04-2025 18:11:31
+ Method Name : SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess
+ Stack Trace :   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnitTestProject1.UnitTest1.SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess() in D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\UnitTest1.cs:line 37
+DateTime : 03-04-2025 18:16:24
+ Method Name : SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess
+ Stack Trace :   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnitTestProject1.UnitTest1.SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess() in D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\UnitTest1.cs:line 41
+DateTime : 03-04-2025 18:17:48
+ Method Name : SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess
+ Stack Trace :   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnitTestProject1.UnitTest1.SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess() in D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\UnitTest1.cs:line 41
+DateTime : 03-04-2025 18:24:00
+ Method Name : SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess
+ Stack Trace :   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnitTestProject1.UnitTest1.SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess() in D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\UnitTest1.cs:line 47
+DateTime : 03-04-2025 18:39:35
+ Method Name : SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess
+ Stack Trace :   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnitTestProject1.UnitTest1.SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess() in D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\UnitTest1.cs:line 50
+DateTime : 03-04-2025 18:40:11
+ Method Name : SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess
+ Stack Trace :   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnitTestProject1.UnitTest1.SendTestEmail_Should_Call_SmtpClient_Return_True_OnSuccess() in D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\UnitTest1.cs:line 50

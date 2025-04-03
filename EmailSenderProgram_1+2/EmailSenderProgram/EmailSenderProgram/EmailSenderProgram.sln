@@ -5,6 +5,22 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSenderProgram", "EmailSenderProgram.csproj", "{CB404AD4-4B82-44A9-9F2C-4F9C0910D54A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailSender.DataModels", "EmailSender.DataModels", "{0E09EF5B-42A7-4C35-8372-949D6393A18B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailServer.DataModels", "..\EmailServer.DataModels\EmailServer.DataModels.csproj", "{B032AEF6-B03C-44F3-A45A-965D5A590647}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailServer.DataAccessLayer", "EmailServer.DataAccessLayer", "{1C261634-C0E4-4544-ACE5-03028BF04EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailServer.DataAccessLayer", "..\EmailServer.DataAccessLayer\EmailServer.DataAccessLayer.csproj", "{1C8B57A4-D7E0-4BA7-B4DD-CE6E0C93D65E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailServer.BusinessLayer", "EmailServer.BusinessLayer", "{3EADC192-AF04-4EC2-9F52-F20F2D37031E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailServer.BusinessLayer", "..\EmailServer.BusinessLayer\EmailServer.BusinessLayer.csproj", "{6375170C-E79F-47CB-833B-29B23F1BE2D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailSenderProgram.Test", "EmailSenderProgram.Test", "{6B0AA544-C214-4F9E-9FE8-BED451AAA29E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "..\UnitTestProject1\UnitTestProject1.csproj", "{48453648-5C04-400C-B1BC-DA2E35B29531}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +31,30 @@ Global
 		{CB404AD4-4B82-44A9-9F2C-4F9C0910D54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB404AD4-4B82-44A9-9F2C-4F9C0910D54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB404AD4-4B82-44A9-9F2C-4F9C0910D54A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B032AEF6-B03C-44F3-A45A-965D5A590647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B032AEF6-B03C-44F3-A45A-965D5A590647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B032AEF6-B03C-44F3-A45A-965D5A590647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B032AEF6-B03C-44F3-A45A-965D5A590647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C8B57A4-D7E0-4BA7-B4DD-CE6E0C93D65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8B57A4-D7E0-4BA7-B4DD-CE6E0C93D65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8B57A4-D7E0-4BA7-B4DD-CE6E0C93D65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8B57A4-D7E0-4BA7-B4DD-CE6E0C93D65E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6375170C-E79F-47CB-833B-29B23F1BE2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6375170C-E79F-47CB-833B-29B23F1BE2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6375170C-E79F-47CB-833B-29B23F1BE2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6375170C-E79F-47CB-833B-29B23F1BE2D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48453648-5C04-400C-B1BC-DA2E35B29531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48453648-5C04-400C-B1BC-DA2E35B29531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48453648-5C04-400C-B1BC-DA2E35B29531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48453648-5C04-400C-B1BC-DA2E35B29531}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B032AEF6-B03C-44F3-A45A-965D5A590647} = {0E09EF5B-42A7-4C35-8372-949D6393A18B}
+		{1C8B57A4-D7E0-4BA7-B4DD-CE6E0C93D65E} = {1C261634-C0E4-4544-ACE5-03028BF04EB5}
+		{6375170C-E79F-47CB-833B-29B23F1BE2D0} = {3EADC192-AF04-4EC2-9F52-F20F2D37031E}
+		{48453648-5C04-400C-B1BC-DA2E35B29531} = {6B0AA544-C214-4F9E-9FE8-BED451AAA29E}
 	EndGlobalSection
 EndGlobal

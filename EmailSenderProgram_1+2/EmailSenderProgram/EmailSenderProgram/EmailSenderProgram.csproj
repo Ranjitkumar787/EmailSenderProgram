@@ -41,22 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataLayer.cs" />
-    <Compile Include="DataModels\GlobalVariables.cs" />
-    <Compile Include="DataModels\SMTPConfigurationFields.cs" />
-    <Compile Include="IMailServiceTypes\IMailService.cs" />
-    <Compile Include="MailServiceTypes\ComeBackMailService.cs" />
-    <Compile Include="MailServiceTypes\ProcessMailBasedOnType.cs" />
-    <Compile Include="MailServiceTypes\WelcomeMailService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utilities\Logger.cs" />
-    <Compile Include="Utilities\SMTPConfiguration.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\EmailServer.BusinessLayer\EmailServer.BusinessLayer.csproj">
+      <Project>{6375170C-E79F-47CB-833B-29B23F1BE2D0}</Project>
+      <Name>EmailServer.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmailServer.DataModels\EmailServer.DataModels.csproj">
+      <Project>{b032aef6-b03c-44f3-a45a-965d5a590647}</Project>
+      <Name>EmailServer.DataModels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

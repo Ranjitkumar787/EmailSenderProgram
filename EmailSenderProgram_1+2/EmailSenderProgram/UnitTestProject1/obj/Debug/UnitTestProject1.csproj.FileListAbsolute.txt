@@ -1,0 +1,12 @@
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\bin\Debug\EmailServer.BusinessLayer.dll
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\bin\Debug\EmailServer.DataModels.dll
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\bin\Debug\EmailServer.DataAccessLayer.dll
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\bin\Debug\EmailServer.BusinessLayer.pdb
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\bin\Debug\EmailServer.DataModels.pdb
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\bin\Debug\EmailServer.DataAccessLayer.pdb
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

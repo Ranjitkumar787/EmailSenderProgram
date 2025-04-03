@@ -1,9 +1,7 @@
-﻿using EmailSenderProgram.DataModels;
-using EmailSenderProgram.Mail_Service;
-using EmailSenderProgram.MailServiceTypes;
-using EmailSenderProgram.Utilities;
+﻿using EmailServer.BusinessLayer.HelperClass;
+using EmailServer.BusinessLayer.Implementation.Mail.MailService;
+using EmailServer.DataModels;
 using System;
-using System.Configuration;
 
 namespace EmailSenderProgram
 {

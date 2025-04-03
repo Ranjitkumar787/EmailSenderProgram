@@ -1,0 +1,21 @@
+
+DateTime : 03-04-2025 18:11:31
+ Method Name : MailMessage
+ Stack Trace :   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at EmailServer.BusinessLayer.HelperClass.CreateMailContent.mailMessage(String ReceiverMailID, String Subject, String MessageBody) in D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\EmailServer.BusinessLayer\HelperClass\CreateMailContent.cs:line 24
+DateTime : 03-04-2025 18:11:48
+ Method Name : MailMessage
+ Stack Trace :   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at EmailServer.BusinessLayer.HelperClass.CreateMailContent.mailMessage(String ReceiverMailID, String Subject, String MessageBody) in D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\EmailServer.BusinessLayer\HelperClass\CreateMailContent.cs:line 24
+DateTime : 03-04-2025 18:16:16
+ Method Name : MailMessage
+ Stack Trace :   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at EmailServer.BusinessLayer.HelperClass.CreateMailContent.mailMessage(String ReceiverMailID, String Subject, String MessageBody) in D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\EmailServer.BusinessLayer\HelperClass\CreateMailContent.cs:line 24
+DateTime : 03-04-2025 18:17:48
+ Method Name : MailMessage
+ Stack Trace :   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at EmailServer.BusinessLayer.HelperClass.CreateMailContent.mailMessage(String ReceiverMailID, String Subject, String MessageBody) in D:\Energy_Opticon_New\EmailSenderProgram_1+2\EmailSenderProgram\EmailServer.BusinessLayer\HelperClass\CreateMailContent.cs:line 24
