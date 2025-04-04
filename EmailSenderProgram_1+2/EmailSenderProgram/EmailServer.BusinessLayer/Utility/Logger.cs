@@ -20,8 +20,8 @@ namespace EmailServer.BusinessLayer.Utility
             lock (_lock)
                 try
                 {
-                    string DirectoryPath = AppDomain.CurrentDomain.BaseDirectory + DateTime.Now.ToString("yyyyMMdd");
-                    string FilePath = AppDomain.CurrentDomain.BaseDirectory + DateTime.Now.ToString("yyyyMMdd") + "//" + fileName;
+                    string DirectoryPath = AppDomain.CurrentDomain.BaseDirectory+"Log//" + DateTime.Now.ToString("yyyyMMdd");
+                    string FilePath = AppDomain.CurrentDomain.BaseDirectory + "Log//" + DateTime.Now.ToString("yyyyMMdd") + "//" + fileName;
 
                     if (!Directory.Exists(DirectoryPath))
                         Directory.CreateDirectory(DirectoryPath);
